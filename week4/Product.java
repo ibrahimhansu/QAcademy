@@ -4,7 +4,7 @@
 package week4;
 
 import java.util.*;
-public class Products  {
+public class Product  {
     String name;
     String desc;
     double price;
@@ -37,7 +37,7 @@ public class Products  {
     String category;
     String subCategory;
 
-    Products (String name, String desc, double price, double discountedPrice, String category, String subCategory){
+    Product (String name, String desc, double price, double discountedPrice, String category, String subCategory){
         this.name=name;
         this.desc=desc;
         this.price=price;
